@@ -1,0 +1,45 @@
+Para entrar no mysql via terminal digite:
+mysql -h localhost -u root -p
+
+
+Para CRIAR banco de dados:
+'create database nomeDoBanco;'
+
+Para deletar algo:
+'DELETE FROM nomeDB/nomeTabela WHERE nomeColuna = 'jao''
+
+Para atualizar dados:
+'UPDATE nomeTabela SET nomeColuna = "Dados Novos" WHERE nomeColuna = "Dados Anterior"'
+
+Para MOSTRAR o banco de dados:
+'Show databases;'
+
+Para USAR um banco de dados:
+'use nomeDoBanco;'
+
+Para criar TABELAS:
+'create table nomeDaTabela'
+
+Para mostrar TABELAS:
+'show tables;'
+
+Para ver a estrutura da tabela:
+'describe nomeDaTabela;'
+
+Para mostrar todos os dados de uma tabela:
+'SELECT * FROM nomeDaTabela;'
+
+Para fazer uma pesquisa filtrada:
+'SELECT * FROM nomeDaTabela WHERE nomeColuna = 8'
+
+Para inserir dados em uma tabela:
+'insert into nomeDaTabela(var, var1, var2) values ('dadosVar', 'dadosVar1', numeroVar2 sem aspas);'
+
+
+tipos de dados:
+
+varchar()
+int
+primary key
+auto_increment
+not null
