@@ -5,6 +5,9 @@ mysql -h localhost -u root -p
 Para CRIAR banco de dados:
 'create database nomeDoBanco;'
 
+Para deletar banco de dados:
+'DROP DATABASE nomeDoBanco;'
+
 Para deletar algo:
 'DELETE FROM nomeDB/nomeTabela WHERE nomeColuna = 'jao''
 
